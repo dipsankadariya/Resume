@@ -1,0 +1,43 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+h1, h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+h1 {
+    color: #333;
+}
+.section {
+    margin-bottom: 20px;
+}
+.contact-info p, .skills-list, .experience-list, .education-list, .projects-list, .additional-info, .blogs-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.skills-list li, .experience-list li, .education-list li, .projects-list li, .additional-info li, .blogs-list li {
+    margin-bottom: 10px;
+}
+p, ul {
+    margin-bottom: 20px;
+}
+a {
+    color: #00aaff;
+    text-decoration: none;
+}
+.projects-list li {
+    margin-bottom: 20px;
+}
