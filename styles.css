@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 14px;
     margin: 0;
-    padding: 20px;
+    padding: 15px;
     background-color: #f4f4f4;
     line-height: 1.6;
 }
@@ -10,21 +10,21 @@ body {
     max-width: 800px;
     margin: auto;
     background: #fff;
-    padding: 20px;
+    padding: 15px;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 h1, h2 {
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 h1 {
     color: #333;
     margin-top: 0;
 }
 .section {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .contact-info p, .skills-list, .experience-list, .education-list, .projects-list, .additional-info, .blogs-list {
     margin: 0;
@@ -32,10 +32,10 @@ h1 {
     list-style: none;
 }
 .skills-list li, .experience-list li, .education-list li, .projects-list li, .additional-info li, .blogs-list li {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 p, ul {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 a {
     color: #00aaff;
@@ -45,7 +45,7 @@ a:hover {
     text-decoration: underline;
 }
 .projects-list li {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 @media (max-width: 768px) {
@@ -62,7 +62,7 @@ a:hover {
     }
     h1, h2 {
         font-size: 18px;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
     }
 }
 
@@ -81,9 +81,9 @@ a:hover {
     }
     h1, h2 {
         font-size: 16px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
     .section {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 }
